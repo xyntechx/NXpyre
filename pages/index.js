@@ -1,23 +1,11 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { useState, useEffect } from "react";
-import { supabase } from "../utils/supabaseClient";
 import Topnav from "../components/topnav/topnav";
 import Title from "../components/title/title";
 import Curves from "../components/curves/curves";
 import Footer from "../components/footer/footer";
 
 export default function Home() {
-    const [session, setSession] = useState(null);
-
-    useEffect(() => {
-        setSession(supabase.auth.session());
-
-        supabase.auth.onAuthStateChange((_event, session) => {
-            setSession(session);
-        });
-    }, []);
-
     return (
         <div>
             <Head>
@@ -43,16 +31,11 @@ export default function Home() {
 
             <Topnav />
 
-            {!session ? (
-                <main className={styles.main}>
-                    <Title />
-                    <Curves />
-                    <Footer />
-                </main>
-            ) : (
-                <></>
-                // TODO: Account component
-            )}
+            <main className={styles.main}>
+                <Title />
+                <Curves />
+                <Footer />
+            </main>
         </div>
     );
 }
