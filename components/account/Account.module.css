@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.buttonGreen,
+.buttonBlue,
+.buttonRed {
+    all: unset;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    transition: 0.3s;
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 40%;
+    text-align: center;
+}
+
+.buttonGreen {
+    border: 0.2rem solid #27fca3;
+    background-color: #27fca3;
+}
+
+.buttonGreen:hover {
+    border: 0.2rem solid #1f2937;
+}
+
+.buttonBlue {
+    border: 0.2rem solid #27bcfc;
+    background: #27bcfc;
+}
+
+.buttonBlue:hover {
+    border: 0.2rem solid #1f2937;
+}
+
+.buttonRed {
+    border: 0.2rem solid #f06565;
+    background: #f06565;
+}
+
+.buttonRed:hover {
+    border: 0.2rem solid #1f2937;
+}
+
+.input {
+    all: unset;
+    border: 0.2rem solid #27bcfc;
+    border-radius: 0.5rem;
+    width: 40%;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.input:focus {
+    background-color: #27bcfc93;
+}
+
+@media (max-width: 900px) {
+    .input,
+    .button {
+        width: 80%;
+    }
+}
+
+@media (max-width: 700px) {
+    .title {
+        font-size: 3rem;
+    }
+
+    .input,
+    .button {
+        font-size: 1.2rem;
+    }
+}
