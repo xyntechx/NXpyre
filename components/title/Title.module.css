@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .largeContainer {
@@ -54,10 +54,10 @@
     padding: 0.2rem 0.8rem;
     transition: 0.3s;
     font-size: 1.5rem;
+    background: #27bcfc;
 }
 
 .button:hover {
-    background: #27bcfc;
     border: 0.2rem solid #1f2937;
 }
 

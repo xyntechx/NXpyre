@@ -1,8 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../title/Title.module.css";
+import { useState, useEffect } from "react";
+import { supabase } from "../../utils/supabaseClient";
 
 export default function Title() {
+    const [session, setSession] = useState(null);
+
+    useEffect(() => {
+        setSession(supabase.auth.session());
+
+        supabase.auth.onAuthStateChange((_event, session) => {
+            setSession(session);
+        });
+    }, []);
     return (
         <main className={styles.main}>
             {/* Large Screens */}
@@ -23,9 +34,15 @@ export default function Title() {
                     </div>
                     <br />
                     <br />
-                    <Link href="/join">
-                        <a className={styles.button}>Join NXpyre</a>
-                    </Link>
+                    {!session ? (
+                        <Link href="/auth">
+                            <a className={styles.button}>Join NXpyre</a>
+                        </Link>
+                    ) : (
+                        <Link href="/account">
+                            <a className={styles.button}>Join NXpyre</a>
+                        </Link>
+                    )}
                 </div>
             </div>
 
@@ -43,9 +60,15 @@ export default function Title() {
                     className={styles.logo}
                 />
                 <br />
-                <Link href="/join">
-                    <a className={styles.button}>Join NXpyre</a>
-                </Link>
+                {!session ? (
+                    <Link href="/auth">
+                        <a className={styles.button}>Join NXpyre</a>
+                    </Link>
+                ) : (
+                    <Link href="/account">
+                        <a className={styles.button}>Join NXpyre</a>
+                    </Link>
+                )}
             </div>
         </main>
     );
