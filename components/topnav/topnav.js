@@ -1,8 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../topnav/Topnav.module.css";
+import { useState, useEffect } from "react";
+import { supabase } from "../../utils/supabaseClient";
 
 export default function Topnav() {
+    const [session, setSession] = useState(null);
+
+    useEffect(() => {
+        setSession(supabase.auth.session());
+
+        supabase.auth.onAuthStateChange((_event, session) => {
+            setSession(session);
+        });
+    }, []);
+
     return (
         <header className={styles.nav}>
             <Link href="/">
@@ -26,9 +38,15 @@ export default function Topnav() {
                 <Link href="/team">
                     <a className={styles.link}>Team</a>
                 </Link>
-                <Link href="/join">
-                    <a className={styles.speciallink}>Join</a>
-                </Link>
+                {!session ? (
+                    <Link href="/auth">
+                        <a className={styles.speciallink}>Join</a>
+                    </Link>
+                ) : (
+                    <Link href="/account">
+                        <a className={styles.speciallink}>Join</a>
+                    </Link>
+                )}
             </div>
         </header>
     );
