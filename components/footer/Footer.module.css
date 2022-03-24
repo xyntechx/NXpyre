@@ -1,0 +1,38 @@
+.footerLarge {
+    display: flex;
+    flex: 1;
+    border-bottom: none;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.footerSmall {
+    display: none;
+}
+
+.description {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+@media (max-width: 700px) {
+    .footerSmall {
+        display: flex;
+        flex: 1;
+        border-bottom: none;
+        justify-content: center;
+        align-items: center;
+        column-gap: 2rem;
+    }
+
+    .footerLarge {
+        display: none;
+    }
+
+    .description {
+        font-size: 1.2rem;
+        margin: 1rem 2rem;
+    }
+}
