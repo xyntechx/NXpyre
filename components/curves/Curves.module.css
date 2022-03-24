@@ -1,0 +1,101 @@
+.bluecurves,
+.bluecurvesinverted {
+    aspect-ratio: 960/300;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+.bluecurves {
+    background-image: url("../../public/layer-blue.svg");
+    transform: rotate(180deg);
+}
+
+.bluecurvesinverted {
+    background-image: url("../../public/layer-blue.svg");
+}
+
+.blobcontent {
+    z-index: 1;
+    margin: 2rem 0;
+}
+
+.blue {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+}
+
+.blue {
+    background: #1f2937;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+    color: #e2e8f0;
+}
+
+.description {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #e2e8f0;
+    margin: 2rem 3rem;
+    text-align: center;
+}
+
+.learnMoreBigContainer {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.learnMoreContainerColumn {
+    display: grid;
+    column-gap: 5rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: fit-content;
+    margin: 0 2rem;
+}
+
+.learnMoreContainerRow {
+    display: none;
+}
+
+.imageButton {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.imageButton:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 700px) {
+    .title {
+        font-size: 3rem;
+    }
+
+    .description {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+
+    .learnMoreContainerColumn {
+        display: none;
+    }
+
+    .learnMoreContainerRow {
+        display: grid;
+        row-gap: 1rem;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        width: fit-content;
+    }
+}
