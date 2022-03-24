@@ -14,8 +14,8 @@ export default function Footer() {
                         <Image
                             src="/socials/linkedin.png"
                             alt="LinkedIn Logo"
-                            width={80}
-                            height={80}
+                            width={60}
+                            height={60}
                         />
                     </a>
                 </Link>
@@ -25,8 +25,8 @@ export default function Footer() {
                         <Image
                             src="/socials/instagram.png"
                             alt="Instagram Logo"
-                            width={80}
-                            height={80}
+                            width={60}
+                            height={60}
                         />
                     </a>
                 </Link>
@@ -36,8 +36,8 @@ export default function Footer() {
                         <Image
                             src="/socials/email.png"
                             alt="Email Logo"
-                            width={90}
-                            height={90}
+                            width={70}
+                            height={70}
                         />
                     </a>
                 </Link>
