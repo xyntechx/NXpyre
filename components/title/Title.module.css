@@ -1,0 +1,84 @@
+.main {
+    min-height: 70vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.largeContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    column-gap: 5rem;
+}
+
+.columnFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-bottom: 0.5rem #27bcfc solid;
+}
+
+.smallContainer {
+    display: none;
+}
+
+.title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+}
+
+.title,
+.description {
+    text-align: center;
+}
+
+.description {
+    font-size: 1.5rem;
+}
+
+.logo {
+    border-radius: 1rem;
+}
+
+.button {
+    border: 0.2rem solid #27bcfc;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.8rem;
+    transition: 0.3s;
+    font-size: 1.5rem;
+}
+
+.button:hover {
+    background: #27bcfc;
+    border: 0.2rem solid #1f2937;
+}
+
+@media (max-width: 700px) {
+    .largeContainer {
+        display: none;
+    }
+
+    .smallContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .description,
+    .button {
+        font-size: 1.2rem;
+    }
+}
