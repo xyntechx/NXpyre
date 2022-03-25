@@ -13,7 +13,7 @@ export default function Auth() {
             setLoading(true);
             const { error } = await supabase.auth.signIn(
                 { email },
-                { redirectTo: "https://nxpyre.com/account/" }
+                { redirectTo: "http://localhost:3000/account/" }
             );
             if (error) throw error;
             alert("Check your email for your Magic Link!");
