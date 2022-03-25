@@ -40,11 +40,11 @@ export default function Topnav() {
                 </Link>
                 {!session ? (
                     <Link href="/auth">
-                        <a className={styles.speciallink}>Join</a>
+                        <a className={styles.speciallink}>Sign Up</a>
                     </Link>
                 ) : (
                     <Link href="/account">
-                        <a className={styles.speciallink}>Join</a>
+                        <a className={styles.speciallink}>Log In</a>
                     </Link>
                 )}
             </div>
