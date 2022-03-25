@@ -45,12 +45,13 @@ export default function Team() {
                         alt="Nyx Audrey Angelo Iskandar, Founder"
                         width="200"
                         height="200"
+                        className={styles.image}
                     />
                     <br />
-                    <h3 className={styles.teamDescription}>
-                        Nyx Audrey Angelo Iskandar
-                    </h3>
-                    <h3 className={styles.teamDescription}>Founder</h3>
+                    <div className={styles.teamDescription}>
+                        <h3>Nyx Audrey Angelo Iskandar</h3>
+                        <h3>Founder</h3>
+                    </div>
                     <br />
                     <p className={styles.teamDesc}>
                         Nyx is a driven, ambitious, and inquisitive teenager who
@@ -79,12 +80,13 @@ export default function Team() {
                         alt="Soh Zen (Su Zhen), Outreach Lead"
                         width="200"
                         height="200"
+                        className={styles.image}
                     />
                     <br />
-                    <h3 className={styles.teamDescription}>
-                        Soh Zen (Su Zhen)
-                    </h3>
-                    <h3 className={styles.teamDescription}>Outreach Lead</h3>
+                    <div className={styles.teamDescription}>
+                        <h3>Soh Zen (Su Zhen)</h3>
+                        <h3>Outreach Lead</h3>
+                    </div>
                     <br />
                     <p className={styles.teamDesc}>
                         Zen is a fervent individual who exudes unwavering
@@ -109,12 +111,13 @@ export default function Team() {
                         alt="Rebecca Moira Angelo Iskandar, Outreach Lead"
                         width="200"
                         height="200"
+                        className={styles.image}
                     />
                     <br />
-                    <h3 className={styles.teamDescription}>
-                        Rebecca Moira Angelo Iskandar
-                    </h3>
-                    <h3 className={styles.teamDescription}>Outreach Lead</h3>
+                    <div className={styles.teamDescription}>
+                        <h3>Rebecca Moira Angelo Iskandar</h3>
+                        <h3>Outreach Lead</h3>
+                    </div>
                     <br />
                     <p className={styles.teamDesc}>
                         Rebecca is a positive and energetic person with a warm
@@ -140,10 +143,13 @@ export default function Team() {
                         alt="Lam Jia Xuan, Art Lead"
                         width="200"
                         height="200"
+                        className={styles.image}
                     />
                     <br />
-                    <h3 className={styles.teamDescription}>Lam Jia Xuan</h3>
-                    <h3 className={styles.teamDescription}>Art Lead</h3>
+                    <div className={styles.teamDescription}>
+                        <h3>Lam Jia Xuan</h3>
+                        <h3>Art Lead</h3>
+                    </div>
                     <br />
                     <p className={styles.teamDesc}>
                         Jia Xuan is an amiable and resilient teenager who loves
@@ -167,10 +173,13 @@ export default function Team() {
                         alt="Tan Wen Ze, Art Lead"
                         width="200"
                         height="200"
+                        className={styles.image}
                     />
                     <br />
-                    <h3 className={styles.teamDescription}>Tan Wen Ze</h3>
-                    <h3 className={styles.teamDescription}>Art Lead</h3>
+                    <div className={styles.teamDescription}>
+                        <h3>Tan Wen Ze</h3>
+                        <h3>Art Lead</h3>
+                    </div>
                     <br />
                     <p className={styles.teamDesc}>
                         Wen Ze&apos;s expertise lies in art; he is skilled and
