@@ -50,13 +50,13 @@ export default function Account({ session }) {
             const user = supabase.auth.user();
 
             if (artist_code === process.env.NEXT_PUBLIC_ARTIST_CODE) {
-                setCareer("Inspire Artist");
+                setCareer("NXpyre Artist");
             } else {
                 if (user_type === "Artist") {
                     setUserType(null);
                     setCareer(null);
                     alert(
-                        "The user type 'Artist' is only for recruited Inspire Artists! \nPlease pick either 'Student' or 'Professional'!"
+                        "The valid Artist Code is sent to recruited NXpyre Artists!"
                     );
                 }
             }
@@ -93,9 +93,7 @@ export default function Account({ session }) {
             user_type === "Artist" &&
             artist_code !== process.env.NEXT_PUBLIC_ARTIST_CODE
         )
-            alert(
-                "The user type 'Artist' is only for recruited Inspire Artists! \nPlease pick either 'Student' or 'Professional'!"
-            );
+            alert("The valid Artist Code is sent to recruited NXpyre Artists!");
         else if (user_type === "Student") router.push("/student");
         else if (user_type === "Professional") router.push("/professional");
         else if (user_type === "Artist") router.push("/artist");
@@ -126,11 +124,11 @@ export default function Account({ session }) {
                 onChange={(e) => setUserType(e.target.value)}
             >
                 <option disabled value="DEFAULT">
-                    I am a...
+                    I want to...
                 </option>
-                <option value="Student">Student</option>
-                <option value="Professional">Professional</option>
-                <option value="Artist">Artist</option>
+                <option value="Student">Learn</option>
+                <option value="Professional">Teach</option>
+                <option value="Artist">Animate</option>
             </select>
 
             <br />
