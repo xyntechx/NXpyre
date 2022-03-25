@@ -9,7 +9,7 @@ export default function Footer() {
                 Can&apos;t get enough of NXpyre? Follow us here!
             </p>
             <footer className={styles.footerLarge}>
-                <Link href="https://www.linkedin.com/in/nyx-iskandar/">
+                <Link href="https://www.linkedin.com/company/nxpyre/">
                     <a target="_blank" rel="noopener noreferrer">
                         <Image
                             src="/socials/linkedin.png"
@@ -31,7 +31,7 @@ export default function Footer() {
                     </a>
                 </Link>
 
-                <Link href="mailto:xyntechx@gmail.com">
+                <Link href="mailto:contact@nxpyre.com">
                     <a target="_blank" rel="noopener noreferrer">
                         <Image
                             src="/socials/email.png"
@@ -44,7 +44,7 @@ export default function Footer() {
             </footer>
 
             <footer className={styles.footerSmall}>
-                <Link href="https://www.linkedin.com/in/nyx-iskandar/">
+                <Link href="https://www.linkedin.com/company/nxpyre/">
                     <a target="_blank" rel="noopener noreferrer">
                         <Image
                             src="/socials/linkedin.png"
@@ -66,7 +66,7 @@ export default function Footer() {
                     </a>
                 </Link>
 
-                <Link href="mailto:xyntechx@gmail.com">
+                <Link href="mailto:contact@nxpyre.com">
                     <a target="_blank" rel="noopener noreferrer">
                         <Image
                             src="/socials/email.png"
