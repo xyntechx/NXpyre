@@ -46,6 +46,7 @@ export default function About() {
                             alt="Students - About"
                             width={300}
                             height={300}
+                            className={styles.image}
                         />
                     </div>
                     <div className={styles.smallImage}>
@@ -54,26 +55,25 @@ export default function About() {
                             alt="Students - About"
                             width={200}
                             height={200}
+                            className={styles.image}
                         />
                     </div>
                     <div className={styles.aboutSubsection}>
                         <p className={styles.description}>
                             Do you aspire to enter a certain industry in the
                             future? Do you want to explore potential career
-                            options? Joining NXpyre ensures that you are
-                            better-informed when pursuing your dream career. To
-                            those who are unsure of what to pursue in the
-                            future, NXpyre is certainly also for you! Through
-                            learning from peers and professionals, you will be
-                            able to realise your dreams and take the first step
-                            towards your aspirations. To those who have
-                            experienced the working world, NXpyre needs your
-                            contribution! Share your stories with your peers on
-                            NXpyre!
+                            options? To those looking to seize opportunities
+                            beyond school, joining NXpyre enables you to learn
+                            directly from experienced peers and professionals
+                            about a vast array of careers, ensuring that you are
+                            better-informed when pursuing your dream career! To
+                            those who have experienced the working world,
+                            joining NXpyre provides you a platform to share your
+                            voice and stories with the like-minded youth here!
                         </p>
                         <br />
                         <p className={styles.description}>
-                            🎯 Connect with like-minded youth and working
+                            🎯 Connect with like-minded peers and working
                             professionals
                         </p>
                         <p className={styles.description}>
@@ -108,6 +108,7 @@ export default function About() {
                             alt="Professionals - About"
                             width={300}
                             height={300}
+                            className={styles.image}
                         />
                     </div>
                     <div className={styles.smallImage}>
@@ -116,6 +117,7 @@ export default function About() {
                             alt="Professionals - About"
                             width={200}
                             height={200}
+                            className={styles.image}
                         />
                     </div>
                     <div className={styles.aboutSubsection}>
@@ -155,6 +157,7 @@ export default function About() {
                             alt="Artists - About"
                             width={300}
                             height={300}
+                            className={styles.image}
                         />
                     </div>
                     <div className={styles.smallImage}>
@@ -163,6 +166,7 @@ export default function About() {
                             alt="Artists - About"
                             width={200}
                             height={200}
+                            className={styles.image}
                         />
                     </div>
                     <div className={styles.aboutSubsection}>
