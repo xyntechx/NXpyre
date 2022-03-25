@@ -27,10 +27,13 @@
 
 .link {
     transition: 0.3s;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
 }
 
 .link:hover {
-    color: #27bcfc;
+    background-color: #57ddd4;
+    color: #1f2937;
 }
 
 .speciallink {
@@ -42,8 +45,7 @@
 
 .speciallink:hover {
     color: #1f2937;
-    background: #27bcfc;
-    border-color: #e2e8f0;
+    background: #57ddd5;
 }
 
 .pointer {
