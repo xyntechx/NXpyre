@@ -1,5 +1,7 @@
 # NXpyre
-&quot;Inspire the Next Generation&quot; isn&apos;t just some motto we parade. At NXpyre, we truly believe in helping you and other like-minded youth forge your own career path! By connecting you to experienced peers and working professionals from a plethora of different fields, NXpyre ensures the accessibility career information so that you are better-informed when pursuing your dream careers. To those who are unsure of what to pursue in the future, NXpyre is certainly also for you! Through learning from peers and professionals, you will be able to realise your dreams and take the first step towards your aspirations.
+> Inspire the Next Generation.
+
+NXpyre is a platform connecting youth and professionals to inspire youth to seize opportunities beyond school and pursue their interests and career aspirations. Using NXpyre, youth will learn from experienced peers and working professionals from a plethora of fields about different careers they can pursue now, including internships, apprenticeships, full-time work, etc., via animations. Hence, youth will be better-informed regarding careers, inspiring them to realise their dreams and take the first step towards their aspirations.
 
 ## 🤖 Technologies
 - Next.js
