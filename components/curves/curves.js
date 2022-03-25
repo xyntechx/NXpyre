@@ -10,24 +10,19 @@ export default function Curves() {
                 <div className={styles.blobcontent}>
                     <h1 className={styles.title}>Why NXpyre?</h1>
                     <br />
-                    <br />
                     <p className={styles.description}>
-                        🎯 Connect with like-minded peers and working
-                        professionals
+                        NXpyre is a platform connecting youth and professionals
+                        to inspire youth to seize opportunities beyond school
+                        and pursue their interests and career aspirations. Using
+                        NXpyre, youth will learn from experienced peers and
+                        working professionals from a plethora of fields about
+                        different careers they can pursue now, including
+                        internships, apprenticeships, full-time work, etc., via
+                        animations. Hence, youth will be better-informed
+                        regarding careers, inspiring them to realise their
+                        dreams and take the first step towards their
+                        aspirations.
                     </p>
-                    <p className={styles.description}>
-                        ✨ Watch animations about careers in your field(s) of
-                        interest
-                    </p>
-                    <p className={styles.description}>
-                        🎉 Learn about internships, apprenticeships, full-time
-                        work, etc. from those who have done it before
-                    </p>
-                    <p className={styles.description}>
-                        ⭐️ Be inspired seize opportunities beyond school - and
-                        impress universities your future employers
-                    </p>
-                    <br />
                     <br />
                     <div className={styles.learnMoreBigContainer}>
                         <div className={styles.learnMoreContainerColumn}>
