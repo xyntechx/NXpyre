@@ -39,11 +39,11 @@ export default function About() {
                 <h1 className={styles.title}>What to Expect</h1>
                 <br />
                 <br />
-                <section id="students" className={styles.aboutSection}>
+                <section id="learn" className={styles.aboutSection}>
                     <div className={styles.bigImage}>
                         <Image
-                            src="/buttons/students.png"
-                            alt="Students - About"
+                            src="/buttons/learn.png"
+                            alt="Learn - About"
                             width={300}
                             height={300}
                             className={styles.image}
@@ -51,8 +51,8 @@ export default function About() {
                     </div>
                     <div className={styles.smallImage}>
                         <Image
-                            src="/buttons/students.png"
-                            alt="Students - About"
+                            src="/buttons/learn.png"
+                            alt="Learn - About"
                             width={200}
                             height={200}
                             className={styles.image}
@@ -62,14 +62,10 @@ export default function About() {
                         <p className={styles.description}>
                             Do you aspire to enter a certain industry in the
                             future? Do you want to explore potential career
-                            options? To those looking to seize opportunities
-                            beyond school, joining NXpyre enables you to learn
+                            options? Joining NXpyre enables you to learn
                             directly from experienced peers and professionals
                             about a vast array of careers, ensuring that you are
-                            better-informed when pursuing your dream career! To
-                            those who have experienced the working world,
-                            joining NXpyre provides you a platform to share your
-                            voice and stories with the like-minded youth here!
+                            better-informed when pursuing your dream career!
                         </p>
                         <br />
                         <p className={styles.description}>
@@ -86,12 +82,8 @@ export default function About() {
                             before
                         </p>
                         <p className={styles.description}>
-                            🗣 Share about internships, apprenticeships,
-                            full-time work, etc. with peers
-                        </p>
-                        <p className={styles.description}>
                             ⭐️ Be inspired to seize opportunities beyond school
-                            (and impress universities your future employers)
+                            (and impress universities and your future employers)
                         </p>
                     </div>
                 </section>
@@ -101,11 +93,11 @@ export default function About() {
                 <br />
                 <br />
 
-                <section id="professionals" className={styles.aboutSection}>
+                <section id="teach" className={styles.aboutSection}>
                     <div className={styles.bigImage}>
                         <Image
-                            src="/buttons/professionals.png"
-                            alt="Professionals - About"
+                            src="/buttons/teach.png"
+                            alt="Teach - About"
                             width={300}
                             height={300}
                             className={styles.image}
@@ -113,8 +105,8 @@ export default function About() {
                     </div>
                     <div className={styles.smallImage}>
                         <Image
-                            src="/buttons/professionals.png"
-                            alt="Professionals - About"
+                            src="/buttons/teach.png"
+                            alt="Teach - About"
                             width={200}
                             height={200}
                             className={styles.image}
@@ -124,23 +116,23 @@ export default function About() {
                         <p className={styles.description}>
                             Do you want to develop and realise yourself through
                             the power of reflections? Do you want to share your
-                            wisdom and experience with the future generation? At
-                            NXpyre, you can inspire the next generation of
-                            professionals of your field and even inspire
-                            yourself to reach greater heights!
+                            wisdom and experience with like-minded peers or the
+                            future generation? At NXpyre, you can inspire future
+                            professionals of your field and even yourself to
+                            reach greater heights!
                         </p>
                         <br />
                         <p className={styles.description}>
-                            🎯 Connect with ambitious youth seeking
-                            opportunities beyond school
+                            🎯 Connect with ambitious youth and professionals
                         </p>
                         <p className={styles.description}>
-                            🗣 Write lessons about your career to be watched as
-                            animations by youth
+                            🗣 Share about internships, apprenticeships,
+                            full-time work, etc. to be watched as animations by
+                            youth
                         </p>
                         <p className={styles.description}>
                             ⭐️ Be inspired to reach new milestones in your
-                            career
+                            career and other aspirations
                         </p>
                     </div>
                 </section>
@@ -150,11 +142,11 @@ export default function About() {
                 <br />
                 <br />
 
-                <section id="artists" className={styles.aboutSection}>
+                <section id="animate" className={styles.aboutSection}>
                     <div className={styles.bigImage}>
                         <Image
-                            src="/buttons/artists.png"
-                            alt="Artists - About"
+                            src="/buttons/animate.png"
+                            alt="Animate - About"
                             width={300}
                             height={300}
                             className={styles.image}
@@ -162,8 +154,8 @@ export default function About() {
                     </div>
                     <div className={styles.smallImage}>
                         <Image
-                            src="/buttons/artists.png"
-                            alt="Artists - About"
+                            src="/buttons/animate.png"
+                            alt="Animate - About"
                             width={200}
                             height={200}
                             className={styles.image}

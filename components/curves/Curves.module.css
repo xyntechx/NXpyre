@@ -9,12 +9,12 @@
 }
 
 .bluecurves {
-    background-image: url("../../public/layer-blue.svg");
+    background-image: url("../../public/layer.svg");
     transform: rotate(180deg);
 }
 
 .bluecurvesinverted {
-    background-image: url("../../public/layer-blue.svg");
+    background-image: url("../../public/layer.svg");
 }
 
 .blobcontent {
@@ -31,7 +31,7 @@
 }
 
 .blue {
-    background: #1f2937;
+    background: #18202b;
 }
 
 .title {

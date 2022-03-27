@@ -44,7 +44,7 @@ export default function Topnav() {
                     </Link>
                 ) : (
                     <Link href="/account">
-                        <a className={styles.speciallink}>Log In</a>
+                        <a className={styles.speciallink}>Profile</a>
                     </Link>
                 )}
             </div>

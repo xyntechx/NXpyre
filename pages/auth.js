@@ -13,7 +13,7 @@ export default function Auth() {
             setLoading(true);
             const { error } = await supabase.auth.signIn(
                 { email },
-                { redirectTo: "http://localhost:3000/account/" }
+                { redirectTo: "https://nxpyre.com/account/" }
             );
             if (error) throw error;
             alert("Check your email for your Magic Link!");
@@ -49,7 +49,7 @@ export default function Auth() {
             <Topnav />
 
             <main className={styles.main}>
-                <h1 className={styles.title}>Sign Up</h1>
+                <h1 className={styles.title}>Join NXpyre</h1>
 
                 <br />
                 <br />

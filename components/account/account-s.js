@@ -94,9 +94,9 @@ export default function Account({ session }) {
             artist_code !== process.env.NEXT_PUBLIC_ARTIST_CODE
         )
             alert("The valid Artist Code is sent to recruited NXpyre Artists!");
-        else if (user_type === "Student") router.push("/student");
-        else if (user_type === "Professional") router.push("/professional");
-        else if (user_type === "Artist") router.push("/artist");
+        else if (user_type === "Student") router.push("/learn");
+        else if (user_type === "Professional") router.push("/teach");
+        else if (user_type === "Artist") router.push("/animate");
     }
 
     return (

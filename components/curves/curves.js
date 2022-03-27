@@ -26,33 +26,33 @@ export default function Curves() {
                     <br />
                     <div className={styles.learnMoreBigContainer}>
                         <div className={styles.learnMoreContainerColumn}>
-                            <Link href="/about/#students">
+                            <Link href="/about/#learn">
                                 <a>
                                     <Image
-                                        src="/buttons/students.png"
-                                        alt="Students - Learn More"
+                                        src="/buttons/learn.png"
+                                        alt="Learn - Learn More"
                                         width={300}
                                         height={300}
                                         className={styles.imageButton}
                                     />
                                 </a>
                             </Link>
-                            <Link href="/about/#professionals">
+                            <Link href="/about/#teach">
                                 <a>
                                     <Image
-                                        src="/buttons/professionals.png"
-                                        alt="Professionals - Learn More"
+                                        src="/buttons/teach.png"
+                                        alt="Teach - Learn More"
                                         width={300}
                                         height={300}
                                         className={styles.imageButton}
                                     />
                                 </a>
                             </Link>
-                            <Link href="/about/#artists">
+                            <Link href="/about/#animate">
                                 <a>
                                     <Image
-                                        src="/buttons/artists.png"
-                                        alt="Artists - Learn More"
+                                        src="/buttons/animate.png"
+                                        alt="Animate - Learn More"
                                         width={300}
                                         height={300}
                                         className={styles.imageButton}
@@ -61,33 +61,33 @@ export default function Curves() {
                             </Link>
                         </div>
                         <div className={styles.learnMoreContainerRow}>
-                            <Link href="/about/#students">
+                            <Link href="/about/#learn">
                                 <a>
                                     <Image
-                                        src="/buttons/students.png"
-                                        alt="Students - Learn More"
+                                        src="/buttons/learn.png"
+                                        alt="Learn - Learn More"
                                         width={200}
                                         height={200}
                                         className={styles.imageButton}
                                     />
                                 </a>
                             </Link>
-                            <Link href="/about/#professionals">
+                            <Link href="/about/#teach">
                                 <a>
                                     <Image
-                                        src="/buttons/professionals.png"
-                                        alt="Professionals - Learn More"
+                                        src="/buttons/teach.png"
+                                        alt="Teach - Learn More"
                                         width={200}
                                         height={200}
                                         className={styles.imageButton}
                                     />
                                 </a>
                             </Link>
-                            <Link href="/about/#artists">
+                            <Link href="/about/#animate">
                                 <a>
                                     <Image
-                                        src="/buttons/artists.png"
-                                        alt="Artists - Learn More"
+                                        src="/buttons/animate.png"
+                                        alt="Animate - Learn More"
                                         width={200}
                                         height={200}
                                         className={styles.imageButton}

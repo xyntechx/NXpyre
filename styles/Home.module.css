@@ -19,7 +19,7 @@
     border: 0.2rem solid #27bcfc;
     border-radius: 0.5rem;
     width: 40%;
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
     font-size: 1.5rem;
     background-color: #fff;
@@ -33,7 +33,7 @@
 .button {
     all: unset;
     border-radius: 0.5rem;
-    padding: 1rem;
+    padding: 0.5rem;
     transition: 0.3s;
     font-size: 1.5rem;
     border: 0.2rem solid #27bcfc;

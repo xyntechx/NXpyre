@@ -18,7 +18,7 @@
 .buttonRed {
     all: unset;
     border-radius: 0.5rem;
-    padding: 1rem;
+    padding: 0.5rem;
     transition: 0.3s;
     font-size: 1.5rem;
     cursor: pointer;
@@ -58,7 +58,7 @@
     border: 0.2rem solid #27bcfc;
     border-radius: 0.5rem;
     width: 40%;
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
     font-size: 1.5rem;
     background-color: #fff;
@@ -71,7 +71,9 @@
 
 @media (max-width: 900px) {
     .input,
-    .button {
+    .buttonGreen,
+    .buttonRed,
+    .buttonBlue {
         width: 80%;
     }
 }
@@ -82,7 +84,9 @@
     }
 
     .input,
-    .button {
+    .buttonGreen,
+    .buttonRed,
+    .buttonBlue {
         font-size: 1.2rem;
     }
 }
