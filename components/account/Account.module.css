@@ -17,40 +17,39 @@
 .buttonBlue,
 .buttonRed {
     all: unset;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     padding: 0.5rem;
     transition: 0.3s;
     font-size: 1.5rem;
+    border: 0.2rem solid #1f2937;
+    background-color: #1f2937;
     cursor: pointer;
     width: 40%;
     text-align: center;
 }
 
 .buttonGreen {
-    border: 0.2rem solid #27fca3;
-    background-color: #27fca3;
+    color: #27fca3;
 }
 
 .buttonGreen:hover {
-    border: 0.2rem solid #1f2937;
+    border: 0.2rem solid #27fca3;
 }
 
 .buttonBlue {
-    border: 0.2rem solid #27bcfc;
-    background: #27bcfc;
+    color: #57ddd5;
 }
 
 .buttonBlue:hover {
-    border: 0.2rem solid #1f2937;
+    border: 0.2rem solid #57ddd5;
 }
 
 .buttonRed {
-    border: 0.2rem solid #f06565;
-    background: #f06565;
+    color: #f06565;
 }
 
 .buttonRed:hover {
-    border: 0.2rem solid #1f2937;
+    border: 0.2rem solid #f06565;
 }
 
 .input {

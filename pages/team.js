@@ -21,7 +21,7 @@ export default function Team() {
                 />
                 <meta
                     property="og:image"
-                    content="https://nxpyre.com/og-image.png"
+                    content="https://nxpyre.com/nxpyre/og-image.png"
                 />
                 <meta property="og:url" content="https://nxpyre.com/" />
                 <meta property="og:type" content="website" />
@@ -124,7 +124,7 @@ export default function Team() {
                         personality. She is eager to pursue her love for art,
                         specifically in terms of creating artworks to bring
                         people together, driving her to join the Art Club of
-                        Raffles Girls&apos; School (Secondary) and Inspire where
+                        Raffles Girls&apos; School (Secondary) and NXpyre where
                         she explores and develops her artistic skills.
                         Sometimes, you can spot Rebecca drawing either digitally
                         or on paper, or listening to pop music. More often,
@@ -154,7 +154,7 @@ export default function Team() {
                     <p className={styles.teamDesc}>
                         Jia Xuan is an amiable and resilient teenager who loves
                         to help others. She is excited to contribute as the Lead
-                        Artist of Inspire because of her love for drawing! Her
+                        Artist of NXpyre because of her love for drawing! Her
                         hobbies also include watching anime and listening to
                         music. By and large, she is an ever-bubbly and
                         ever-enthusiastic person with great passion in all of

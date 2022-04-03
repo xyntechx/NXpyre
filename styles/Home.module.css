@@ -32,27 +32,32 @@
 
 .button {
     all: unset;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     padding: 0.5rem;
     transition: 0.3s;
     font-size: 1.5rem;
-    border: 0.2rem solid #27bcfc;
-    background: #27bcfc;
+    border: 0.2rem solid #1f2937;
+    background-color: #1f2937;
     cursor: pointer;
     width: 40%;
     text-align: center;
+    color: #57ddd5;
 }
 
 .button:hover {
-    background: #27bcfc;
-    border: 0.2rem solid #1f2937;
+    border-color: #57ddd5;
 }
 
+.topPara,
 .description,
 .teamDesc {
     font-size: 1.5rem;
     text-align: justify;
     margin: 0 2rem;
+}
+
+.topPara {
+    margin: 0 4rem;
 }
 
 .teamDesc {
@@ -103,6 +108,19 @@
     border-radius: 0.5rem;
 }
 
+.textLink {
+    border: 0.2rem solid #1f2937;
+    border-radius: 0.3rem;
+    padding: 0 0.4rem;
+    transition: 0.3s;
+    color: #57ddd5;
+    background-color: #1f2937;
+}
+
+.textLink:hover {
+    border-color: #57ddd5;
+}
+
 @media (max-width: 1100px) {
     .aboutSection {
         flex-direction: column;
@@ -123,9 +141,10 @@
 
 @media (max-width: 700px) {
     .title {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
+    .topPara,
     .description,
     .teamDescription,
     .teamDesc {

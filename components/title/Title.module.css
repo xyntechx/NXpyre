@@ -22,7 +22,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    border-bottom: 0.5rem #27bcfc solid;
+    border-bottom: 0.5rem #57ddd5 solid;
 }
 
 .smallContainer {
@@ -49,16 +49,17 @@
 }
 
 .button {
-    border: 0.2rem solid #27bcfc;
-    border-radius: 0.5rem;
-    padding: 0.2rem 0.8rem;
+    border: 0.2rem solid #1f2937;
+    border-radius: 0.3rem;
+    padding: 0.2rem 0.4rem;
     transition: 0.3s;
     font-size: 1.5rem;
-    background: #27bcfc;
+    color: #57ddd5;
+    background-color: #1f2937;
 }
 
 .button:hover {
-    border: 0.2rem solid #1f2937;
+    border-color: #57ddd5;
 }
 
 @media (max-width: 700px) {

@@ -101,7 +101,7 @@ export default function Account({ session }) {
 
     return (
         <div className={styles.container}>
-            <h1 className={styles.title}>Log In</h1>
+            <h1 className={styles.title}>My Profile</h1>
 
             <br />
             <br />
@@ -126,35 +126,31 @@ export default function Account({ session }) {
                 <option disabled value="DEFAULT">
                     I want to...
                 </option>
-                <option value="Student">Learn</option>
                 <option value="Professional">Teach</option>
                 <option value="Artist">Animate</option>
+                <option value="Student">Learn</option>
             </select>
 
             <br />
 
             {user_type === "Artist" ? (
-                <>
-                    <input
-                        id="artist-code"
-                        type="text"
-                        className={styles.input}
-                        placeholder="Artist Code"
-                        value={artist_code || ""}
-                        onChange={(e) => setArtistCode(e.target.value)}
-                    />
-                </>
+                <input
+                    id="artist-code"
+                    type="text"
+                    className={styles.input}
+                    placeholder="Artist Code"
+                    value={artist_code || ""}
+                    onChange={(e) => setArtistCode(e.target.value)}
+                />
             ) : (
-                <>
-                    <select
-                        id="career"
-                        className={styles.input}
-                        value={career || "DEFAULT"}
-                        onChange={(e) => setCareer(e.target.value)}
-                    >
-                        <Options />
-                    </select>
-                </>
+                <select
+                    id="career"
+                    className={styles.input}
+                    value={career || "DEFAULT"}
+                    onChange={(e) => setCareer(e.target.value)}
+                >
+                    <Options />
+                </select>
             )}
 
             <br />

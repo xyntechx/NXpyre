@@ -34,7 +34,7 @@ export default function Account() {
                 />
                 <meta
                     property="og:image"
-                    content="https://nxpyre.com/og-image.png"
+                    content="https://nxpyre.com/nxpyre/og-image.png"
                 />
                 <meta property="og:url" content="https://nxpyre.com/" />
                 <meta property="og:type" content="website" />
