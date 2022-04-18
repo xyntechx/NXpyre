@@ -19,4 +19,4 @@ npm run dev
 ```
 
 ## 📚 Note
-This repository is not the working repository of NXpyre. It is meant as a template for you to make your own websites! Thank you and join NXpyre!
+This repository is not the working repository of NXpyre. It is meant as a template for you to make your own websites! Thank you and join [NXpyre](https://nxpyre.com/)!
