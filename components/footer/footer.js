@@ -30,17 +30,6 @@ export default function Footer() {
                         />
                     </a>
                 </Link>
-
-                <Link href="mailto:contact@nxpyre.com">
-                    <a target="_blank" rel="noopener noreferrer">
-                        <Image
-                            src="/socials/email.png"
-                            alt="Email Logo"
-                            width={70}
-                            height={70}
-                        />
-                    </a>
-                </Link>
             </footer>
 
             <footer className={styles.footerSmall}>
@@ -62,17 +51,6 @@ export default function Footer() {
                             alt="Instagram Logo"
                             width={50}
                             height={50}
-                        />
-                    </a>
-                </Link>
-
-                <Link href="mailto:contact@nxpyre.com">
-                    <a target="_blank" rel="noopener noreferrer">
-                        <Image
-                            src="/socials/email.png"
-                            alt="Email Logo"
-                            width={60}
-                            height={60}
                         />
                     </a>
                 </Link>
